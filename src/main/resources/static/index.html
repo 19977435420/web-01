@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ambition</title>
+</head>
+<body>
+<h1 align="center" style="color: pink">我爱你，SpringBoot !!! </h1>
+<form method="get" action="user">
+    <input type="submit" value="get">
+</form>
+<br>
+<form method="post" action="user">
+    <input type="submit" value="post">
+</form>
+<br><form method="post" action="user">
+    <input type="hidden" name="_method" value="delete">
+    <input type="submit" value="delete">
+</form>
+<br>
+<form method="post" action="user">
+    <input type="hidden" name="_method" value="put">
+    <input type="submit" value="put">
+</form>
+<br>
+
+<form action="getPersonInfo" method="post">
+    <input type="text" name="name" value="张三"><br>
+    <input type="text" name="brith" value="2020/10/20"><br>
+    <input type="text" name="age" value="18"><br>
+    <input type="text" name="pet.name" value="啊猫"><br>
+    <input type="text" name="pet.age" value="2"><br>
+    <input type="submit" value="提交"><br>
+</form>
+
+</body>
+</html>
