@@ -8,8 +8,9 @@ public class Web01Application {
 
     public static void main(String[] args) {
         SpringApplication.run(Web01Application.class, args);
-
-        System.out.println("master");
+        System.out.println("git");
+        System.out.println("git2");
+        System.out.println("master-----test");
     }
 
 }
