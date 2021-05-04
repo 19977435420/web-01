@@ -13,6 +13,7 @@ public class Web01Application {
         System.out.println("master-----test");
         System.out.println("hot -fix-----test");
         System.out.println("push");
+        System.out.println("我在GitHub上修改了");
     }
 
 }
