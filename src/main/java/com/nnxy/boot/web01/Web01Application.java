@@ -10,8 +10,8 @@ public class Web01Application {
         SpringApplication.run(Web01Application.class, args);
         System.out.println("git");
         System.out.println("git2");
-        System.out.println("hot -fix");
-        System.out.println("master");
+        System.out.println("hot -fix-----test");
+
     }
 
 }
