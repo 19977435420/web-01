@@ -8,6 +8,7 @@ public class Web01Application {
 
     public static void main(String[] args) {
         SpringApplication.run(Web01Application.class, args);
+        System.out.println("git");
     }
 
 }
